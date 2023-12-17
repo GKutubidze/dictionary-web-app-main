@@ -1,0 +1,10 @@
+.main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 15px;
+    margin-top:15%;
+}
+.contant{
+    text-align: center;
+}

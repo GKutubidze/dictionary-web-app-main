@@ -1,0 +1,40 @@
+.searchContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin-top:24px;
+    width: 100%;
+    align-items: center;
+    
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+  
+  .searchInput {
+    width: 100%;
+    min-width: 327px;
+    border:none;
+    background-color: var(--cultured);
+    border-radius: 16px;
+    height: 48px;
+  
+    flex: 1; /* Allow the input to expand and take up the available space */
+    font-size: 16px;
+    font-weight: bold;
+    padding: 14px 0 15px 24px;
+  }
+  
+  .searchIcon {
+    cursor: pointer;
+    position: absolute;
+    top: 16px;
+    right: 35px; /* Adjust the right position to place the icon where you want */
+  }
+
+
+.searchInput:focus {
+    border: 2px solid var(--lavender-indigo); /* Change the border when the input is focused */
+    outline: none; /* Remove the default focus outline if you don't want it */
+  }
+ 

@@ -1,0 +1,21 @@
+.fontList  {
+list-style-type: none;    
+}
+
+.fontList li {
+    font-size: 15px;
+    line-height: 24px;
+    color: #2D2D2D;
+    cursor: pointer;
+}
+.conditionalDropdown{
+    padding: 15px;
+    width: 130px;
+    height: 152;
+    z-index: 1;
+    position:absolute;
+    top: 10%;
+    background-color: rgb(247, 245, 245);
+    border-radius: 16px;
+}
+ 
