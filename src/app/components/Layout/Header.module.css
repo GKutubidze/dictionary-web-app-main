@@ -44,6 +44,7 @@ min-width: 100%;
     font-size: 14px;
     font-weight: bold;
     color: #2D2D2D;
+    
   
      
 }
@@ -91,7 +92,7 @@ min-width: 100%;
     left: 0;
     right: 0;
     bottom: 0;
-    background-color: var(--sonic-cilver);
+    background-color: var(--sonic-silver);
     transition: 0.4s;
   }
   

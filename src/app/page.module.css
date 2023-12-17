@@ -1,0 +1,10 @@
+.main {
+    display: flex;
+    flex-direction: column;
+    /* height: 100vh; */
+}
+
+.blackBackground{
+    background-color: black;
+    color: white;
+}

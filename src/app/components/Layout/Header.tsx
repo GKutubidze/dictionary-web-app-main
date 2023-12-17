@@ -27,7 +27,8 @@ const Header = (props: Props) => {
                 isDark ? style.whiteBackground : style.blackBackground
               }`}
             >
-              {font}
+              {/* {font} */}
+              {`   ${font}`}
             </button>
             <Image
               src={arrowlogo}

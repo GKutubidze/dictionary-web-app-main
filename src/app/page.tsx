@@ -31,6 +31,7 @@ export default function Home() {
     }
   }, [fontNumber]);
 
+ 
   return (
     <main
       className={`${styles.main} ${font.className} ${
